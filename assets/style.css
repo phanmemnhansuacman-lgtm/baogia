@@ -555,3 +555,35 @@ table.spec-table th { color: var(--cream); font-weight: 700; }
   transition: opacity .15s;
 }
 .btn-tao-bao-gia:hover { opacity: .85; }
+.price-detail-wrap{
+  overflow-x:auto;
+  margin-top:16px;
+}
+.price-detail-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+}
+.price-detail-table th,
+.price-detail-table td{
+  border:1px solid var(--border, #333);
+  padding:8px 10px;
+  vertical-align:middle;
+  text-align:left;
+}
+.price-detail-table thead th{
+  background:var(--card-2, #1a1a2e);
+  font-weight:700;
+  text-align:center;
+}
+.price-detail-table td:first-child{
+  text-align:center;
+  font-weight:600;
+}
+.price-detail-table td.pkg-name{
+  font-weight:700;
+}
+.price-detail-table td:nth-child(3),
+.price-detail-table td:nth-child(4){
+  text-align:right;
+}
